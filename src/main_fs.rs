@@ -14,7 +14,7 @@ pub async fn download(name: String) -> anyhow::Result<()> {
     let index = web::get_index().await?;
 
     dbg!(&index);
-    
+
     let p = index.get(&name).unwrap();
 
 
@@ -22,6 +22,9 @@ pub async fn download(name: String) -> anyhow::Result<()> {
         &p.git
     ).arg(format!("./mosaic_libs/{name}"));
 
+    e.capture()?;
+
+    let e = Exec::cmd("rm").arg("-rf").arg(format!("./mosaic_libs/{name}/.git"));
     e.capture()?;
 
     Ok(())

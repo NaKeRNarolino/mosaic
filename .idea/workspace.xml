@@ -11,9 +11,9 @@
     </cargoProject>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcb8dc58-57d0-4d20-8f4d-4ec926a723c8" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/src/main_fs.rs" afterDir="false" />
-      <change afterPath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/src/web.rs" afterDir="false" />
+    <list default="true" id="fcb8dc58-57d0-4d20-8f4d-4ec926a723c8" name="Changes" comment="Initial commit">
+      <change beforePath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/src/main_fs.rs" beforeDir="false" afterPath="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic/src/main_fs.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +30,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/home/nakernarolino/RustroverProjects/mosaic" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory"><![CDATA[{
   "lastFilter": {
@@ -120,11 +121,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1754161710007</updated>
-      <workItem from="1754161711566" duration="2963000" />
+      <workItem from="1754161711566" duration="3331000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1754164709211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1754164709211</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
